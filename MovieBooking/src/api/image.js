@@ -1,0 +1,27 @@
+export const home1= "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/home1.jpg?updatedAt=1736921244780"
+export const home2= "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/home2.jpg?updatedAt=1736921244755"
+export const home3= "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/home3.jpg?updatedAt=1736921244663"
+
+// card image 
+export const img1 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m1.jpg?updatedAt=1736921245713"
+export const img2 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m2.jpg?updatedAt=1736921246090"
+export const img3 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m3.jpg?updatedAt=1736921245925"
+export const img4 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m4.jpg?updatedAt=1736921246095"
+export const img5 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m5.jpg?updatedAt=1736921245979"
+export const img6 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m6.jpg?updatedAt=1736921246331"
+export const img7 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m7.jpg?updatedAt=1736921246147"
+export const img8 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m8.png?updatedAt=1736921248422"
+export const img9 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m9.jpg?updatedAt=1736921248454"
+export const img10 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/m10.jpg?updatedAt=1736921248904"
+
+// comming movie image 
+export const cimg1 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming1.jpg?updatedAt=1736921241525"
+export const cimg2 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming2.jpg?updatedAt=1736921241150"
+export const cimg3 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming3.jpg?updatedAt=1736921241435"
+export const cimg4 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming4.jpg?updatedAt=1736921240710"
+export const cimg5 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming5.jpg?updatedAt=1736921241637"
+export const cimg6 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming6.jpeg?updatedAt=1736921241449"
+export const cimg7 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming7.jpg?updatedAt=1736921241800"
+export const cimg8 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming8.jpg?updatedAt=1736921240937"
+export const cimg9 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming9.jpg?updatedAt=1736921241442"
+export const cimg10 = "https://ik.imagekit.io/jjyo3gsee/Allen%20Project/coming10.jpg?updatedAt=1736921242665"
