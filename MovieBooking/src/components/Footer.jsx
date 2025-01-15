@@ -4,7 +4,7 @@ import {Clapperboard,Facebook, Twitter, Instagram, Music2} from 'lucide-react'
 const Footer = () => {
   return (
     <div className=' bg-secondary px-4 sm:px-[10%] pb-10' id='footer'>
-      <div className=' flex justify-between items-center' >
+      <div className=' flex justify-between items-center flex-wrap md:flex-nowrap gap-5 md:gap-0' >
         <div>
             <a href="#home" className=' flex items-center gap-1 cursor-pointer'>
                 <Clapperboard className=' fill-primary stroke-white ' />

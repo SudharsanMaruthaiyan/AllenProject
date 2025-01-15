@@ -43,7 +43,7 @@ const Comming = () => {
         ]
       };
   return (
-    <div className=' bg-secondary px-4 sm:px-[10%] pt-24' id='comming'>
+    <div className=' bg-secondary px-4 sm:px-[10%] pt-24 overflow-hidden' id='comming'>
         <div>
             <h1 className=' font-bold text-white text-base md:text-2xl'>COMMING SOON</h1>
             <hr className=' bg-primary h-[2px] w-full outline-none border-none' />
