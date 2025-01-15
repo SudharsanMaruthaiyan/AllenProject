@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
-import { AppContext } from '../context/appcontext'
 import { useNavigate } from 'react-router-dom';
+import { AppContext } from '../context/Appcontexted';
 
 const Register = () => {
 
