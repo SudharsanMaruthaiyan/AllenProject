@@ -2,14 +2,16 @@ const validator = require('validator')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
 const userModel = require('../modules/userModle');
-
+const express = require('express');
 
 // api for register 
 const registerUser = async (req,res)=>{
     try {
         
         const {name , email, password} = req.body;
-        if (!name || !password || !email) {
+        const file = req.file;
+
+        if (!name || !password || !email || !file) {
             return res.json({success:false , message:"Missing Details"})
         }  
 
@@ -30,7 +32,11 @@ const registerUser = async (req,res)=>{
         const userData = {
             name,
             email,
-            password: hashedpassword
+            password: hashedpassword,
+            image: {
+                data: req.file.filename,
+                contentType:'/image/png',
+            },
         }
 
         const newUser = new userModel(userData)
@@ -82,7 +88,16 @@ const getProfile = async(req,res)=>{
         const {userId} = req.body
         const userData = await userModel.findById(userId).select('-password')
 
-        res.json({success:true, userData})
+        // Convert image Buffer to base64
+        const imageUrl = userData.image ? `${process.env.BASE_URL}/uploads/${userData.image.data}` : null;
+
+        const userProfileData  = {
+            name: userData.name,
+            email: userData.email,
+            image: imageUrl,
+        };
+
+        res.json({success:true, userProfileData })
 
     } catch (error) {
         console.log(error);

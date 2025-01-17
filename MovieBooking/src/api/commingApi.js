@@ -9,55 +9,55 @@ export const commingApi = [
     },
     {
         image:cimg2,
-        name:"Venom",
+        name:"gesd",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg3,
-        name:"Venom",
+        name:"laksk",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg4,
-        name:"Venom",
+        name:"jilla",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg5,
-        name:"Venom",
+        name:"karnan",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg6,
-        name:"Venom",
+        name:"linga",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg7,
-        name:"Venom",
+        name:"theri",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg8,
-        name:"Venom",
+        name:"Vetayen",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg9,
-        name:"Venom",
+        name:"kashmora",
         time: "120 min",
         category:"Action"
     },
     {
         image:cimg10,
-        name:"Venom",
+        name:"theree",
         time: "120 min",
         category:"Action"
     },

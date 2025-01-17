@@ -11,11 +11,16 @@ const AppContextProvider = (props)=>{
     const [token, setToken] = useState(localStorage.getItem('token') ? localStorage.getItem('token') : false)
     const [userData, setUserData] = useState(false)
 
+    const logout = async ()=>{
+        setToken(false)
+        localStorage.removeItem('token')
+    }
+
     const loadUserProfile = async ()=>{
         try {
             const {data} = await axios.get(backendUrl + '/api/user/get-profile', {headers:{token}})
             if (data) {
-                setUserData(data.userData)
+                setUserData(data.userProfileData)
             }
             else{
                 console.log(error);
@@ -30,7 +35,8 @@ const AppContextProvider = (props)=>{
         backendUrl,
         token,
         setToken,
-        userData, setUserData, loadUserProfile
+        userData, setUserData, loadUserProfile,
+        logout
     }
 
 

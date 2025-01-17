@@ -9,55 +9,55 @@ export const openingApi =[
     },
     {
     image:img2,
-    name:"Venom",
+    name:"sulthan",
     time: "120 min",
     category:"Action"
     },
     {
     image:img3,
-    name:"Venom",
+    name:"Veeram",
     time: "120 min",
     category:"Action"
     },
     {
     image:img4,
-    name:"Venom",
+    name:"Linga",
     time: "120 min",
     category:"Action"
     },
     {
     image:img5,
-    name:"Venom",
+    name:"Billa",
     time: "120 min",
     category:"Action"
     },
     {
     image:img6,
-    name:"Venom",
+    name:"Varmah",
     time: "120 min",
     category:"Action"
     },
     {
     image:img7,
-    name:"Venom",
+    name:"Kaasi",
     time: "120 min",
     category:"Action"
     },
     {
     image:img8,
-    name:"Venom",
+    name:"Theri",
     time: "120 min",
     category:"Action"
     },
     {
     image:img9,
-    name:"Venom",
+    name:"Jilla",
     time: "120 min",
     category:"Action"
     },
     {
     image:img10,
-    name:"Venom",
+    name:"Karnan",
     time: "120 min",
     category:"Action"
     },
