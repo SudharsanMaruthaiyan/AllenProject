@@ -57,7 +57,7 @@ const Header = () => {
                     <div className=' absolute top-[33%] px-4 sm:px-[10%] z-50'>
                         <div className=' flex flex-col items-start gap-0'>
                             <p className=' font-bold text-[12px] md:text-lg text-white' >MARVEL UNIVERSE</p>
-                            <p className=' text-white text-[40px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Venom: Let There <br /> Be Carnage</p>
+                            <p className=' text-white text-[60px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Venom: Let There <br /> Be Carnage</p>
                             <button className=' bg-primary text-white md:py-2 md:px-3 rounded-lg py-2 px-3 md:text-base text-sm my-5'>Book Now</button>
                         </div>
                     </div>
@@ -69,8 +69,8 @@ const Header = () => {
                     <div className=' absolute top-[33%] px-4 sm:px-[10%] z-50'>
                         <div className=' flex flex-col items-start gap-0'>
                             <p className=' font-bold text-[12px] md:text-lg text-white' >MARVEL UNIVERSE</p>
-                            <p className=' text-white text-[40px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Avengers:<br /> Infinity War </p>
-                            <button className=' bg-primary text-white md:py-2 md:px-3 rounded-lg py-2 px-3 md:text-base text-sm my-5'>Book Now</button>
+                            <p className=' text-white text-[60px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Avengers:<br /> Infinity War </p>
+                            <button className='bg-primary text-white md:py-2 md:px-3 rounded-lg py-3 px-6 md:text-base text-base my-5'>Book Now</button>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Header = () => {
                     <div className=' absolute top-[33%] px-4 sm:px-[10%] z-50'>
                         <div className=' flex flex-col items-start gap-0'>
                             <p className=' font-bold text-[12px] md:text-lg text-white' >MARVEL UNIVERSE</p>
-                            <p className=' text-white text-[40px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Spider-Man: <br /> Far from Home</p>
+                            <p className=' text-white text-[60px] md:text-[60px] lg:text-[80px] leading-tight font-bold'>Spider-Man: <br /> Far from Home</p>
                             <button className=' bg-primary text-white md:py-2 md:px-3 rounded-lg py-2 px-3 md:text-base text-sm my-5'>Book Now</button>
                         </div>
                     </div>
