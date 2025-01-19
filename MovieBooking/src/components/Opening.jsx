@@ -6,7 +6,7 @@ const Opening = () => {
     const [search, setSearch] = useState("")
 
     const filterMovies = openingApi.filter((movie)=>(
-        movie.name.toLowerCase().includes(search.toLowerCase())
+        movie.Title.toLowerCase().includes(search.toLowerCase())
     ))
 
   return (
@@ -29,7 +29,7 @@ const Opening = () => {
             {(search === "" ? openingApi : filterMovies).map((e, index) => (
                 <>
                     <div key={index}>
-                        <OpeningCard name={e.name} image={e.image} category={e.category} time={e.time}/>
+                        <OpeningCard Language={e.Language} Genre={e.Genre} imdbRating={e.imdbRating} id={e.imdbID} name={e.Title} image={e.Poster} category={e.Type} time={e.Runtime}/>
                     </div>
                 </>
             ))}

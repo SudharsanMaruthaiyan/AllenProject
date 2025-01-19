@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className={`${open ? 'absolute top-[69px] left-0 right-0' : ' absolute -top-[250px] left-0 right-0' } transition-all flex justify-center pl-5 shadow-2xl drop-shadow-2xl border-b backdrop-blur-2xl bg-white/20 border-white/40 py-3`}>
         <div className=''>
             <ul className=' flex flex-col items-center gap-8'>
-                <li className=' font-semibold hover:border-b-primary hover:border-b-[3px] text-white'><a href="#home">Home</a></li>
+                <li className=' font-semibold hover:border-b-primary hover:border-b-[3px] text-white' onClick={()=>navigate('/')} >Home</li>
                 <li className=' font-semibold hover:border-b-primary hover:border-b-[3px] text-white'><a href="#movie">Movies</a></li>
                 <li className='font-semibold hover:border-b-primary hover:border-b-[3px] text-white'><a href="#comming">Coming</a></li>
                 <li className='font-semibold hover:border-b-primary hover:border-b-[3px] text-white'><a href="#footer">Newsletter</a></li>
@@ -64,7 +64,7 @@ const Navbar = () => {
               </div>
                 <div className=' group-hover:block hidden absolute top-0 left-0 pt-10 text-base font-medium z-20'>
                   <div className='min-w-48 rounded flex flex-col gap-4 p-4 '>
-                      <p onClick={()=> navigate('/my-profile')} className=' hover:text-primary text-white cursor-pointer'>My Profile</p>
+                      {/* <p onClick={()=> navigate('/my-profile')} className=' hover:text-primary text-white cursor-pointer'>My Profile</p> */}
                       <p onClick={logout} className=' hover:text-primary cursor-pointer text-white'>Logout</p>
                   </div>
                 </div>  
