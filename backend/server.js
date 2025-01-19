@@ -27,7 +27,7 @@ app.use('/api/admin', adminRoute)
 // end point 
 app.get('/', (req, res) =>{
 
-    res.send("Allend Project Backend Working")
+    res.send("Allen Project Backend Working")
 
 } )
 
