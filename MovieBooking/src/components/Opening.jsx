@@ -12,13 +12,13 @@ const Opening = () => {
   return (
     <div className=' bg-secondary px-4 sm:px-[10%] pt-24' id='movie'>
         <div>
-            <div className='md:flex items-center justify-between md:flex-nowrap'>
+            <div className='flex items-center justify-between flex-nowrap'>
                 <h1 className=' font-bold text-white text-base md:text-2xl'>OPENING THIS WEEK</h1>
                 <input
                     onChange={(e) => setSearch(e.target.value)}
                     value={search}
                     type="text"
-                    className="py-3 rounded-full my-2 outline-none pl-5 md:block hidden"
+                    className="md:py-3 rounded-full my-2 outline-none md:pl-5 py-1 pl-2"
                     placeholder="Search Here..."
                 />
             </div>
