@@ -18,7 +18,7 @@ const Footer = () => {
             <Music2 className=' stroke-primary  bg-white p-3 rounded-full w-12 h-12'/>
         </div>
       </div>
-      <p className=' text-center text-white pt-20'>@copy Sudharsan All Right Reserved</p>
+      <p className=' text-center text-white pt-20'>@copy Allen All Right Reserved</p>
     </div>
   )
 }
