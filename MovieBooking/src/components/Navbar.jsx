@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className=' flex items-center gap-2 cursor-pointer group relative'>
               <div className=' flex items-center gap-2'>
                 <div className=''>
-                  <img className='w-8 h-8 rounded-full' src={userData.image} alt="profile imag3" />
+                  {/* <img className='w-8 h-8 rounded-full' src={userData.image} alt="profile imag3" /> */}
                 </div>
                 <p className=' text-white'>{userData.name}</p>
               </div>
